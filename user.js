@@ -38,7 +38,7 @@ let signupUrl = "https://66e7e6a0b17821a9d9da6efe.mockapi.io/login";
             .then(response => response.json())
             .then(data => {
                 alert("Registration completed successfully!");
-                window.location.href = 'login.html';
+                window.location.href = 'index.html';
             })
             .catch(error => {
                 console.error('Error:', error);
